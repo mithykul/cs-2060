@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poland Ball - Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>POLAND BALL</h1>
+    <p>Classical Pianist</p>
+  </header>
+  <nav class="navbar">
+    <button onclick="window.location.href='index.html';">Biography</button>
+    <button onclick="window.location.href='repertoire.html';">Repertoire List</button>
+    <button onclick="window.location.href='accompaniment.html';">Accompaniment Rates</button>
+    <button onclick="window.location.href='contact.html';">Contact</button>
+  </nav>
+  <main class="container">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <form method="post" action="#">
+         <input name="recipient" type="hidden" value="node172@peicloud.ca">
+         <input name="subject" type="hidden" value="Inquiry">
+         <p><label>Your name:<br><input name="name" type="text" size="32"></label></p>
+         <p><label>Your email:<br><input name="email" type="text" size="32"></label></p>
+         <p>What is your question about:<br><label><input name="qtype" type="radio" value="repertoire">Your repertoire</label> | <label><input name="qtype" type="radio" value="accompaniment">Accompaniment</label> | <label><input name="qtype" type="radio" value="other" checked>Other</label></p>
+         <p><label>Your question:<br><textarea name="question" rows="6" cols="48"></textarea></label></p>
+         <p>Pick the composers that you like:<br><label><input name="composers" type="checkbox" value="chopin">Frédéric Chopin</label> | <label><input name="composers" type="checkbox" value="paderewski">Ignacy Jan Paderewski</label> | <label><input name="composers" type="checkbox" value="penderecki">Krzysztof Penderecki</label> | <label><input name="composers" type="checkbox" value="szymanowska">Maria Szymanowska</label> | <label><input name="composers" type="checkbox" value="szymanowski">Karol Szymanowski</label></p>
+         <p><label>Pick your favourite composers:
+           <select name="composer">
+             <option selected>Please select</option>
+             <option>Frédéric Chopin</option>
+             <option>Ignacy Jan Paderewski</option>
+             <option>Krzysztof Penderecki</option>
+             <option>Maria Szymanowska</option>
+             <option>Karol Szymanowski</option>
+           </select>
+         </label></p>
+         <p><label>Insult my website (or me):<br><input name="insult" type="password" size="32"></label></p>
+         <p><input type="submit" value="Send form"> <input type="reset" value="Reset form"></p>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2025 Poland Ball | <a href="https://www.instagram.com/upeimusicsociety"><img style="height:1em;" src="instagram_gylph_black.png"></a></p>
+  </footer>
+</body>
+</html>
