@@ -1,0 +1,28 @@
+1) 
+2)
+3)
+4)
+5)
+6)
+7)
+8)
+9)
+10)
+==== ==== ==== ==== ====
+The following is a small project:
+
+The Logo language made the concept of turtle graphics famous. In this assignment, you build your website to simulate the Logo language using Javascript.
+
+Imagine a mechanical turtle that walks around the room under the user's control. The turtle holds a pen in one of two positions, up or down. While the pen is down, the turtle traces out shapes as it moves; while the pen is up, the turtle moves about freely without writing anything. 
+
+Create a 50-by-50 floor that is initialized to empty. Assume that the turtle always starts at position 0, 0 of the floor with its pen up, facing right. 
+
+The web user controls the turtle interactively. You may decide the way of controlling this turtle, including the four directions of turtle movement, Up, Down, Left, Right, set pen Up/Down, and Reset the floor. You may use buttons, keys, or other ways to control the turtle. User instructions should be presented on the website and should be found easily.
+
+You may decide on the presentation side of this website, including layout, color, size, turtle figure, and so on. If you like, the turtle can be shown as a car, a person, or something else.
+
+A student tried to accomplish this project and produced two files: index.html and turtle.js. These two files are attached here. But the problem is that the webpage does not work well. Please check this code, find and report the problems, fix the problems and put it on your website. 
+
+1. (10 marks)  Put a text file A2.txt in your home directory. This file should list the problems of the Javascript file turtle.js. A2.txt must be itemized, one item for each line of code. Please point out line number, function name, and the revision should be done. Long discussions are not accepted. The file should not contain more than 10 items. 
+
+2. (5 marks) The project should be fully functioning in your website. The revisions should be consistent with what you have described in A2.txt. If you use completely new files to make the project functioning but the files are not obtained through limited revision from the provided files, only 2 marks will be given although the project is fully functioning.
